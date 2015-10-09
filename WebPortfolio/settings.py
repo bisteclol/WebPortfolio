@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'q2bd13b^r^%c2)#-us@b7heh6vwl-vd#p3-3#gwzme5)j-!q7%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -103,7 +103,7 @@ USE_TZ = True
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = 'C:/Users/Kevin/PycharmProjects/WebPortfolio/static/'
+STATIC_ROOT = '/opt/myenv/WebPortfolio/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
